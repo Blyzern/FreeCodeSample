@@ -6,7 +6,6 @@
     display: flex;
     text-align: center;
     flex-direction: column;
-    justify-content: flex-start;
 }
 #img-div
 {
@@ -18,7 +17,9 @@
 }
 #image
 {
-    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
     height: auto;
 }
 #title
